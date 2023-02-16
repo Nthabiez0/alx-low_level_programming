@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- *  main - Entry
- * Return: Always 0
+ *  main - Entry point
+ *
+ *  Description: 'Size is not grandeur, and territory does not make a nation'
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
