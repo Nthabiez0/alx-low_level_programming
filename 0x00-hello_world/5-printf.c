@@ -1,7 +1,5 @@
-stdio.h>
+#include <stdio.h>
 
-main block
-0
-
-(void)
-intf("with proper grammar, but the outcome is a piece of art,\n");
+int main block {
+	//print()
+	printf"(with proper grammar, but the outcome is a piece of art,");
