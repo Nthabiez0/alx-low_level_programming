@@ -1,4 +1,6 @@
 #include "main.h"
+
+
 /**
  * rev_string - reverse a string
  * @s: input
@@ -17,7 +19,7 @@ void rev_string(char *s)
 		c--;
 		rv = s[i];
 		s[i] = s[c];
-		s[c] rv;
+		s[c] = rv;
 	}
 }
 
