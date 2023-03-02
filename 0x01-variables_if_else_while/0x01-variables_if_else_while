@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+/** main - Detrmines if a number is positive or negative
+*
+* Return: On success always(0)
+*/
+
 int main()
 {
     int n;
@@ -21,3 +26,4 @@ int main()
     }
     return 0;
 }
+
