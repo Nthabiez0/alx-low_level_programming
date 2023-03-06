@@ -1,29 +1,33 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_chessboard - prints the chessboard
+ * print_diagsums - prints the sum of the two diagonals of a square
+ * matrix of integers
  *
- * @a: the row of the array
+ * @a: the name of the array
+ * @size: the size of the array
  *
  * Return: nothing
  */
 
 void print_diagsums(int *a, int size)
 {
-int i;
+int i = 0;
+int j = size - 1;
 int sum1 = 0;
 int sum2 = 0;
-for (i = 0; i < size; i++)
+
+while (i <= (size * size))
 {
-sum1 += matrix[i * size + i];
-sum2 += matrix[i * size + size - i - 1];
-}
-printf("%d %d\n", sum1, sum2);
+sum1 = sum1 + a[i];
+i = i + size + 1;
 }
 
-int main(void)
+while (j < (size * size - 1))
 {
-int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-print_diagsums(&matrix[0][0], 3);
-return (0);
+sum2 += a[j];
+j = j + size - 1;
+}
+printf("%d, %d\n", sum1, sum2);
 }
