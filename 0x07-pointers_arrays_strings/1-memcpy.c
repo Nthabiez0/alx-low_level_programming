@@ -11,7 +11,7 @@
  */
 
 
-void *memcpy(void *dest, const void *src, size_t n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 char *dp = dest;
 const char *sp = src;
