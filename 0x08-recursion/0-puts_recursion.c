@@ -1,19 +1,12 @@
 #include "main.h"
 
 /**
- * main - prints a string
+ * main - check the code
  *
- * Retun: Always 0 (Success)
+ * Return: Always 0.
  */
-
-void _puts_recursion(char *s);
+int main(void)
 {
-if (*s == '\0')
-{
-printf("\n");
-return;
-}
-printf("%c", *s);
-print_string(s + 1)
+_puts_recursion("Puts with recursion");
 return (0);
 }
