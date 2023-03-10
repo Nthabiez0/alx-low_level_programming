@@ -10,8 +10,7 @@
  * Return: Always 0 (Success)
  */
 
-int main(int argc, char *args[])
-
+int main(int argc, char *argv[])
 {
 
 (void) argv; /*Ignore argv*/
@@ -23,3 +22,4 @@ int main(int argc, char *args[])
 	return (0);
 
 }
+
